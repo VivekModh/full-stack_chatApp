@@ -14,8 +14,8 @@ spec:
         app: frontend
     spec:
       containers:
-      - name: frontend
-        image: iemafzal/frontend:v1
+      - name: chatapp-frontend
+        image: vivek2good/chatapp-frontend:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
